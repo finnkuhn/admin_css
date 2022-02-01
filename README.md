@@ -1,6 +1,6 @@
 ## admin_css
 ---
-admin_css is a very simple css, which can be used to quickly create good-looking admin tools without a lot of hassle. You can find a preview of it on [my website](https://finnkuhn.com/admin_css/).
+admin_css is a very simple css, which can be used to quickly create good-looking admin tools without a lot of hassle. You can find a preview of it on [my website](https://finnkuhn.com/projects/admin_css/).
 
 included are:
 - general css for body
