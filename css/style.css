@@ -136,6 +136,7 @@ a:not(.link-default):hover {
 }
 
 .button-delete {
+	grid-column: 2;
 	background-color: var(--oc-red-0);
 	border-color: var(--oc-red-7);
 	color: var(--oc-red-7);
@@ -165,6 +166,33 @@ a:not(.link-default):hover {
 .link-default:hover {
 	background-color: var(--oc-gray-7);
 	color: var(--oc-gray-2);
+}
+
+.link-submit {
+	background-color: var(--oc-green-0);
+	color: var(--oc-green-7);
+}
+.link-submit:hover {
+	background-color: var(--oc-green-7);
+	color: var(--oc-green-0);
+}
+
+link-edit {
+	background-color: var(--oc-yellow-0);
+	color: var(--oc-yellow-7);
+}
+.link-edit:hover {
+	background-color: var(--oc-yellow-7);
+	color: var(--oc-yellow-0);
+}
+
+.link-delete {
+	background-color: var(--oc-red-0);
+	color: var(--oc-red-7);
+}
+.link-delete:hover {
+	background-color: var(--oc-red-7);
+	color: var(--oc-red-0);
 }
 
 /* form */
@@ -329,6 +357,33 @@ iframe {
 	.link-default:hover {
 		background-color: var(--oc-gray-1);
 		color: var(--oc-gray-7);
+	}
+
+	.link-submit {
+		background-color: var(--oc-green-2);
+		color: var(--oc-green-9);
+	}
+	.link-submit:hover {
+		background-color: var(--oc-green-9);
+		color: var(--oc-green-2);
+	}
+
+	link-edit {
+		background-color: var(--oc-yellow-2);
+		color: var(--oc-yellow-9);
+	}
+	.link-edit:hover {
+		background-color: var(--oc-yellow-9);
+		color: var(--oc-yellow-2);
+	}
+
+	.link-delete {
+		background-color: var(--oc-red-2);
+		color: var(--oc-red-9);
+	}
+	.link-delete:hover {
+		background-color: var(--oc-red-9);
+		color: var(--oc-red-2);
 	}
 
 	/* form */
